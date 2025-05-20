@@ -1,0 +1,373 @@
+[
+    {
+      "date": {"$date": "2023-10-05T00:00:00.000Z"},
+      "foodWaste": 54,
+      "aluminum": 32,
+      "cardboard": 45,
+      "glass": 56,
+      "metal": {"cans": 43, "scrap": 32},
+      "paper": {"books": 23, "mixed": 34, "newspaper": 45, "white": 28},
+      "plastic": {"PET": 34, "HDPEColored": 22, "HDPENatural": 44}
+    },
+    {
+      "date": {"$date": "2023-10-15T00:00:00.000Z"},
+      "foodWaste": 64,
+      "aluminum": 36,
+      "cardboard": 42,
+      "glass": 52,
+      "metal": {"cans": 46, "scrap": 40},
+      "paper": {"books": 30, "mixed": 32, "newspaper": 48, "white": 25},
+      "plastic": {"PET": 30, "HDPEColored": 25, "HDPENatural": 50}
+    },
+    {
+      "date": {"$date": "2023-10-25T00:00:00.000Z"},
+      "foodWaste": 50,
+      "aluminum": 40,
+      "cardboard": 30,
+      "glass": 60,
+      "metal": {"cans": 40, "scrap": 35},
+      "paper": {"books": 35, "mixed": 28, "newspaper": 60, "white": 32},
+      "plastic": {"PET": 40, "HDPEColored": 20, "HDPENatural": 60}
+    },
+    {
+      "date": {"$date": "2023-10-30T00:00:00.000Z"},
+      "foodWaste": 60,
+      "aluminum": 45,
+      "cardboard": 35,
+      "glass": 55,
+      "metal": {"cans": 44, "scrap": 38},
+      "paper": {"books": 32, "mixed": 42, "newspaper": 52, "white": 30},
+      "plastic": {"PET": 37, "HDPEColored": 28, "HDPENatural": 55}
+    },
+    {
+      "date": {"$date": "2023-11-05T00:00:00.000Z"},
+      "foodWaste": 58,
+      "aluminum": 38,
+      "cardboard": 42,
+      "glass": 59,
+      "metal": {"cans": 42, "scrap": 33},
+      "paper": {"books": 28, "mixed": 37, "newspaper": 48, "white": 31},
+      "plastic": {"PET": 35, "HDPEColored": 24, "HDPENatural": 53}
+    },
+    {
+      "date": {"$date": "2023-11-10T00:00:00.000Z"},
+      "foodWaste": 55,
+      "aluminum": 39,
+      "cardboard": 46,
+      "glass": 58,
+      "metal": {"cans": 42, "scrap": 37},
+      "paper": {"books": 35, "mixed": 41, "newspaper": 47, "white": 36},
+      "plastic": {"PET": 44, "HDPEColored": 29, "HDPENatural": 51}
+    },
+    {
+        "date": {"$date": "2023-11-05T00:00:00.000Z"},
+        "foodWaste": 54,
+        "aluminum": 32,
+        "cardboard": 45,
+        "glass": 56,
+        "metal": {"cans": 43, "scrap": 32},
+        "paper": {"books": 23, "mixed": 34, "newspaper": 45, "white": 28},
+        "plastic": {"PET": 34, "HDPEColored": 22, "HDPENatural": 44}
+      },
+      {
+        "date": {"$date": "2023-12-15T00:00:00.000Z"},
+        "foodWaste": 64,
+        "aluminum": 36,
+        "cardboard": 42,
+        "glass": 52,
+        "metal": {"cans": 46, "scrap": 40},
+        "paper": {"books": 30, "mixed": 32, "newspaper": 48, "white": 25},
+        "plastic": {"PET": 30, "HDPEColored": 25, "HDPENatural": 50}
+      },
+      {
+        "date": {"$date": "2023-12-25T00:00:00.000Z"},
+        "foodWaste": 50,
+        "aluminum": 40,
+        "cardboard": 30,
+        "glass": 60,
+        "metal": {"cans": 40, "scrap": 35},
+        "paper": {"books": 35, "mixed": 28, "newspaper": 60, "white": 32},
+        "plastic": {"PET": 40, "HDPEColored": 20, "HDPENatural": 60}
+      },
+      {
+        "date": {"$date": "2023-12-30T00:00:00.000Z"},
+        "foodWaste": 60,
+        "aluminum": 45,
+        "cardboard": 35,
+        "glass": 55,
+        "metal": {"cans": 44, "scrap": 38},
+        "paper": {"books": 32, "mixed": 42, "newspaper": 52, "white": 30},
+        "plastic": {"PET": 37, "HDPEColored": 28, "HDPENatural": 55}
+      },
+      {
+        "date": {"$date": "2023-12-05T00:00:00.000Z"},
+        "foodWaste": 58,
+        "aluminum": 38,
+        "cardboard": 42,
+        "glass": 59,
+        "metal": {"cans": 42, "scrap": 33},
+        "paper": {"books": 28, "mixed": 37, "newspaper": 48, "white": 31},
+        "plastic": {"PET": 35, "HDPEColored": 24, "HDPENatural": 53}
+      },
+      {
+        "date": {"$date": "2024-01-10T00:00:00.000Z"},
+        "foodWaste": 55,
+        "aluminum": 39,
+        "cardboard": 46,
+        "glass": 58,
+        "metal": {"cans": 42, "scrap": 37},
+        "paper": {"books": 35, "mixed": 41, "newspaper": 47, "white": 36},
+        "plastic": {"PET": 44, "HDPEColored": 29, "HDPENatural": 51}
+      },
+      {
+        "date": {"$date": "2024-01-05T00:00:00.000Z"},
+        "foodWaste": 54,
+        "aluminum": 32,
+        "cardboard": 45,
+        "glass": 56,
+        "metal": {"cans": 43, "scrap": 32},
+        "paper": {"books": 23, "mixed": 34, "newspaper": 45, "white": 28},
+        "plastic": {"PET": 34, "HDPEColored": 22, "HDPENatural": 44}
+      },
+      {
+        "date": {"$date": "2024-01-15T00:00:00.000Z"},
+        "foodWaste": 64,
+        "aluminum": 36,
+        "cardboard": 42,
+        "glass": 52,
+        "metal": {"cans": 46, "scrap": 40},
+        "paper": {"books": 30, "mixed": 32, "newspaper": 48, "white": 25},
+        "plastic": {"PET": 30, "HDPEColored": 25, "HDPENatural": 50}
+      },
+      {
+        "date": {"$date": "2024-02-05T00:00:00.000Z"},
+        "foodWaste": 50,
+        "aluminum": 40,
+        "cardboard": 30,
+        "glass": 60,
+        "metal": {"cans": 40, "scrap": 35},
+        "paper": {"books": 35, "mixed": 28, "newspaper": 60, "white": 32},
+        "plastic": {"PET": 40, "HDPEColored": 20, "HDPENatural": 60}
+      },
+      {
+        "date": {"$date": "2024-02-27T00:00:00.000Z"},
+        "foodWaste": 60,
+        "aluminum": 45,
+        "cardboard": 35,
+        "glass": 55,
+        "metal": {"cans": 44, "scrap": 38},
+        "paper": {"books": 32, "mixed": 42, "newspaper": 52, "white": 30},
+        "plastic": {"PET": 37, "HDPEColored": 28, "HDPENatural": 55}
+      },
+      {
+        "date": {"$date": "2024-03-09T00:00:00.000Z"},
+        "foodWaste": 58,
+        "aluminum": 38,
+        "cardboard": 42,
+        "glass": 59,
+        "metal": {"cans": 42, "scrap": 33},
+        "paper": {"books": 28, "mixed": 37, "newspaper": 48, "white": 31},
+        "plastic": {"PET": 35, "HDPEColored": 24, "HDPENatural": 53}
+      },
+      {
+        "date": {"$date": "2024-03-20T00:00:00.000Z"},
+        "foodWaste": 55,
+        "aluminum": 39,
+        "cardboard": 46,
+        "glass": 58,
+        "metal": {"cans": 42, "scrap": 37},
+        "paper": {"books": 35, "mixed": 41, "newspaper": 47, "white": 36},
+        "plastic": {"PET": 44, "HDPEColored": 29, "HDPENatural": 51}
+      },
+      {
+          "date": {"$date": "2024-03-30T00:00:00.000Z"},
+          "foodWaste": 54,
+          "aluminum": 32,
+          "cardboard": 45,
+          "glass": 56,
+          "metal": {"cans": 43, "scrap": 32},
+          "paper": {"books": 23, "mixed": 34, "newspaper": 45, "white": 28},
+          "plastic": {"PET": 34, "HDPEColored": 22, "HDPENatural": 44}
+        },
+        {
+          "date": {"$date": "2024-04-15T00:00:00.000Z"},
+          "foodWaste": 64,
+          "aluminum": 36,
+          "cardboard": 42,
+          "glass": 52,
+          "metal": {"cans": 46, "scrap": 40},
+          "paper": {"books": 30, "mixed": 32, "newspaper": 48, "white": 25},
+          "plastic": {"PET": 30, "HDPEColored": 25, "HDPENatural": 50}
+        },
+        {
+          "date": {"$date": "2024-04-22T00:00:00.000Z"},
+          "foodWaste": 50,
+          "aluminum": 40,
+          "cardboard": 30,
+          "glass": 60,
+          "metal": {"cans": 40, "scrap": 35},
+          "paper": {"books": 35, "mixed": 28, "newspaper": 60, "white": 32},
+          "plastic": {"PET": 40, "HDPEColored": 20, "HDPENatural": 60}
+        },
+        {
+          "date": {"$date": "2024-04-30T00:00:00.000Z"},
+          "foodWaste": 60,
+          "aluminum": 45,
+          "cardboard": 35,
+          "glass": 55,
+          "metal": {"cans": 44, "scrap": 38},
+          "paper": {"books": 32, "mixed": 42, "newspaper": 52, "white": 30},
+          "plastic": {"PET": 37, "HDPEColored": 28, "HDPENatural": 55}
+        },
+        {
+          "date": {"$date": "2024-05-05T00:00:00.000Z"},
+          "foodWaste": 58,
+          "aluminum": 38,
+          "cardboard": 42,
+          "glass": 59,
+          "metal": {"cans": 42, "scrap": 33},
+          "paper": {"books": 28, "mixed": 37, "newspaper": 48, "white": 31},
+          "plastic": {"PET": 35, "HDPEColored": 24, "HDPENatural": 53}
+        },
+        {
+          "date": {"$date": "2024-05-10T00:00:00.000Z"},
+          "foodWaste": 55,
+          "aluminum": 39,
+          "cardboard": 46,
+          "glass": 58,
+          "metal": {"cans": 42, "scrap": 37},
+          "paper": {"books": 35, "mixed": 41, "newspaper": 47, "white": 36},
+          "plastic": {"PET": 44, "HDPEColored": 29, "HDPENatural": 51}
+        },
+        {
+            "date": {"$date": "2024-05-20T00:00:00.000Z"},
+            "foodWaste": 55,
+            "aluminum": 39,
+            "cardboard": 46,
+            "glass": 58,
+            "metal": {"cans": 42, "scrap": 37},
+            "paper": {"books": 35, "mixed": 41, "newspaper": 47, "white": 36},
+            "plastic": {"PET": 44, "HDPEColored": 29, "HDPENatural": 51}
+          },
+          {
+            "date": {"$date": "2024-06-05T00:00:00.000Z"},
+            "foodWaste": 54,
+            "aluminum": 32,
+            "cardboard": 45,
+            "glass": 56,
+            "metal": {"cans": 43, "scrap": 32},
+            "paper": {"books": 23, "mixed": 34, "newspaper": 45, "white": 28},
+            "plastic": {"PET": 34, "HDPEColored": 22, "HDPENatural": 44}
+          },
+          {
+            "date": {"$date": "2024-06-15T00:00:00.000Z"},
+            "foodWaste": 64,
+            "aluminum": 36,
+            "cardboard": 42,
+            "glass": 52,
+            "metal": {"cans": 46, "scrap": 40},
+            "paper": {"books": 30, "mixed": 32, "newspaper": 48, "white": 25},
+            "plastic": {"PET": 30, "HDPEColored": 25, "HDPENatural": 50}
+          },
+          {
+            "date": {"$date": "2024-07-05T00:00:00.000Z"},
+            "foodWaste": 50,
+            "aluminum": 40,
+            "cardboard": 30,
+            "glass": 60,
+            "metal": {"cans": 40, "scrap": 35},
+            "paper": {"books": 35, "mixed": 28, "newspaper": 60, "white": 32},
+            "plastic": {"PET": 40, "HDPEColored": 20, "HDPENatural": 60}
+          },
+          {
+            "date": {"$date": "2024-08-17T00:00:00.000Z"},
+            "foodWaste": 60,
+            "aluminum": 45,
+            "cardboard": 35,
+            "glass": 55,
+            "metal": {"cans": 44, "scrap": 38},
+            "paper": {"books": 32, "mixed": 42, "newspaper": 52, "white": 30},
+            "plastic": {"PET": 37, "HDPEColored": 28, "HDPENatural": 55}
+          },
+          {
+            "date": {"$date": "2024-08-29T00:00:00.000Z"},
+            "foodWaste": 58,
+            "aluminum": 38,
+            "cardboard": 42,
+            "glass": 59,
+            "metal": {"cans": 42, "scrap": 33},
+            "paper": {"books": 28, "mixed": 37, "newspaper": 48, "white": 31},
+            "plastic": {"PET": 35, "HDPEColored": 24, "HDPENatural": 53}
+          },
+          {
+            "date": {"$date": "2024-09-10T00:00:00.000Z"},
+            "foodWaste": 55,
+            "aluminum": 39,
+            "cardboard": 46,
+            "glass": 58,
+            "metal": {"cans": 42, "scrap": 37},
+            "paper": {"books": 35, "mixed": 41, "newspaper": 47, "white": 36},
+            "plastic": {"PET": 44, "HDPEColored": 29, "HDPENatural": 51}
+          },
+          {
+              "date": {"$date": "2024-09-20T00:00:00.000Z"},
+              "foodWaste": 54,
+              "aluminum": 32,
+              "cardboard": 45,
+              "glass": 56,
+              "metal": {"cans": 43, "scrap": 32},
+              "paper": {"books": 23, "mixed": 34, "newspaper": 45, "white": 28},
+              "plastic": {"PET": 34, "HDPEColored": 22, "HDPENatural": 44}
+            },
+            {
+              "date": {"$date": "2024-09-25T00:00:00.000Z"},
+              "foodWaste": 64,
+              "aluminum": 36,
+              "cardboard": 42,
+              "glass": 52,
+              "metal": {"cans": 46, "scrap": 40},
+              "paper": {"books": 30, "mixed": 32, "newspaper": 48, "white": 25},
+              "plastic": {"PET": 30, "HDPEColored": 25, "HDPENatural": 50}
+            },
+            {
+              "date": {"$date": "2024-09-29T00:00:00.000Z"},
+              "foodWaste": 50,
+              "aluminum": 40,
+              "cardboard": 30,
+              "glass": 60,
+              "metal": {"cans": 40, "scrap": 35},
+              "paper": {"books": 35, "mixed": 28, "newspaper": 60, "white": 32},
+              "plastic": {"PET": 40, "HDPEColored": 20, "HDPENatural": 60}
+            },
+            {
+              "date": {"$date": "2024-10-05T00:00:00.000Z"},
+              "foodWaste": 58,
+              "aluminum": 38,
+              "cardboard": 42,
+              "glass": 59,
+              "metal": {"cans": 42, "scrap": 33},
+              "paper": {"books": 28, "mixed": 37, "newspaper": 48, "white": 31},
+              "plastic": {"PET": 35, "HDPEColored": 24, "HDPENatural": 53}
+            },
+            {
+              "date": {"$date": "2024-10-15T00:00:00.000Z"},
+              "foodWaste": 55,
+              "aluminum": 39,
+              "cardboard": 46,
+              "glass": 58,
+              "metal": {"cans": 42, "scrap": 37},
+              "paper": {"books": 35, "mixed": 41, "newspaper": 47, "white": 36},
+              "plastic": {"PET": 44, "HDPEColored": 29, "HDPENatural": 51}
+            },
+            {
+                "date": {"$date": "2024-10-25T00:00:00.000Z"},
+                "foodWaste": 50,
+                "aluminum": 40,
+                "cardboard": 30,
+                "glass": 60,
+                "metal": {"cans": 40, "scrap": 35},
+                "paper": {"books": 35, "mixed": 28, "newspaper": 60, "white": 32},
+                "plastic": {"PET": 40, "HDPEColored": 20, "HDPENatural": 60}
+              }
+  ]
+  

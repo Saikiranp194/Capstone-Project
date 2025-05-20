@@ -1,0 +1,219 @@
+[
+    {
+      "landfillDate": {"$date": "2023-10-06T00:00:00.000Z"},
+      "weight": 500,
+      "expense": 200,
+      "landfillHauler": "Waste Haulers Inc."
+    },
+    {
+      "landfillDate": {"$date": "2023-10-15T00:00:00.000Z"},
+      "weight": 510,
+      "expense": 205,
+      "landfillHauler": "City Disposal Services"
+    },
+    {
+      "landfillDate": {"$date": "2024-10-25T00:00:00.000Z"},
+      "weight": 530,
+      "expense": 225,
+      "landfillHauler": "Eastside Waste Mgmt"
+    },
+    {
+        "landfillDate": {"$date": "2023-11-06T00:00:00.000Z"},
+        "weight": 500,
+        "expense": 200,
+        "landfillHauler": "Waste Haulers Inc."
+      },
+      {
+        "landfillDate": {"$date": "2023-11-13T00:00:00.000Z"},
+        "weight": 510,
+        "expense": 205,
+        "landfillHauler": "City Disposal Services"
+      },
+      {
+        "landfillDate": {"$date": "2024-11-25T00:00:00.000Z"},
+        "weight": 530,
+        "expense": 225,
+        "landfillHauler": "Eastside Waste Mgmt"
+      },
+      {
+        "landfillDate": {"$date": "2023-12-06T00:00:00.000Z"},
+        "weight": 500,
+        "expense": 200,
+        "landfillHauler": "Waste Haulers Inc."
+      },
+      {
+        "landfillDate": {"$date": "2023-12-13T00:00:00.000Z"},
+        "weight": 510,
+        "expense": 205,
+        "landfillHauler": "City Disposal Services"
+      },
+      {
+        "landfillDate": {"$date": "2023-12-25T00:00:00.000Z"},
+        "weight": 530,
+        "expense": 225,
+        "landfillHauler": "Eastside Waste Mgmt"
+      },
+      {
+          "landfillDate": {"$date": "2024-01-06T00:00:00.000Z"},
+          "weight": 500,
+          "expense": 200,
+          "landfillHauler": "Waste Haulers Inc."
+        },
+        {
+          "landfillDate": {"$date": "2024-01-13T00:00:00.000Z"},
+          "weight": 510,
+          "expense": 205,
+          "landfillHauler": "City Disposal Services"
+        },
+        {
+          "landfillDate": {"$date": "2024-01-25T00:00:00.000Z"},
+          "weight": 530,
+          "expense": 225,
+          "landfillHauler": "Eastside Waste Mgmt"
+        },
+        {
+            "landfillDate": {"$date": "2024-02-06T00:00:00.000Z"},
+            "weight": 500,
+            "expense": 200,
+            "landfillHauler": "Waste Haulers Inc."
+          },
+          {
+            "landfillDate": {"$date": "2024-02-15T00:00:00.000Z"},
+            "weight": 510,
+            "expense": 205,
+            "landfillHauler": "City Disposal Services"
+          },
+          {
+            "landfillDate": {"$date": "2024-02-25T00:00:00.000Z"},
+            "weight": 530,
+            "expense": 225,
+            "landfillHauler": "Eastside Waste Mgmt"
+          },
+          {
+              "landfillDate": {"$date": "2024-03-06T00:00:00.000Z"},
+              "weight": 500,
+              "expense": 200,
+              "landfillHauler": "Waste Haulers Inc."
+            },
+            {
+              "landfillDate": {"$date": "2024-03-13T00:00:00.000Z"},
+              "weight": 510,
+              "expense": 205,
+              "landfillHauler": "City Disposal Services"
+            },
+            {
+              "landfillDate": {"$date": "2024-03-25T00:00:00.000Z"},
+              "weight": 530,
+              "expense": 225,
+              "landfillHauler": "Eastside Waste Mgmt"
+            },
+            {
+              "landfillDate": {"$date": "2024-04-06T00:00:00.000Z"},
+              "weight": 500,
+              "expense": 200,
+              "landfillHauler": "Waste Haulers Inc."
+            },
+            {
+              "landfillDate": {"$date": "2024-04-13T00:00:00.000Z"},
+              "weight": 510,
+              "expense": 205,
+              "landfillHauler": "City Disposal Services"
+            },
+            {
+              "landfillDate": {"$date": "2024-04-25T00:00:00.000Z"},
+              "weight": 530,
+              "expense": 225,
+              "landfillHauler": "Eastside Waste Mgmt"
+            },
+            {
+                "landfillDate": {"$date": "2024-05-06T00:00:00.000Z"},
+                "weight": 500,
+                "expense": 200,
+                "landfillHauler": "Waste Haulers Inc."
+              },
+              {
+                "landfillDate": {"$date": "2024-06-13T00:00:00.000Z"},
+                "weight": 510,
+                "expense": 205,
+                "landfillHauler": "City Disposal Services"
+              },
+              {
+                "landfillDate": {"$date": "2024-06-25T00:00:00.000Z"},
+                "weight": 530,
+                "expense": 225,
+                "landfillHauler": "Eastside Waste Mgmt"
+              },
+              {
+                "landfillDate": {"$date": "2024-07-06T00:00:00.000Z"},
+                "weight": 500,
+                "expense": 200,
+                "landfillHauler": "Waste Haulers Inc."
+              },
+              {
+                "landfillDate": {"$date": "2024-07-13T00:00:00.000Z"},
+                "weight": 510,
+                "expense": 205,
+                "landfillHauler": "City Disposal Services"
+              },
+              {
+                "landfillDate": {"$date": "2024-07-25T00:00:00.000Z"},
+                "weight": 530,
+                "expense": 225,
+                "landfillHauler": "Eastside Waste Mgmt"
+              },
+              {
+                  "landfillDate": {"$date": "2024-08-06T00:00:00.000Z"},
+                  "weight": 500,
+                  "expense": 200,
+                  "landfillHauler": "Waste Haulers Inc."
+                },
+                {
+                  "landfillDate": {"$date": "2024-08-15T00:00:00.000Z"},
+                  "weight": 510,
+                  "expense": 205,
+                  "landfillHauler": "City Disposal Services"
+                },
+                {
+                  "landfillDate": {"$date": "2024-08-25T00:00:00.000Z"},
+                  "weight": 530,
+                  "expense": 225,
+                  "landfillHauler": "Eastside Waste Mgmt"
+                },
+                {
+                    "landfillDate": {"$date": "2024-09-06T00:00:00.000Z"},
+                    "weight": 500,
+                    "expense": 200,
+                    "landfillHauler": "Waste Haulers Inc."
+                  },
+                  {
+                    "landfillDate": {"$date": "2024-09-13T00:00:00.000Z"},
+                    "weight": 510,
+                    "expense": 205,
+                    "landfillHauler": "City Disposal Services"
+                  },
+                  {
+                    "landfillDate": {"$date": "2024-09-25T00:00:00.000Z"},
+                    "weight": 530,
+                    "expense": 225,
+                    "landfillHauler": "Eastside Waste Mgmt"
+                  },
+                  {
+                    "landfillDate": {"$date": "2024-10-06T00:00:00.000Z"},
+                    "weight": 500,
+                    "expense": 200,
+                    "landfillHauler": "Waste Haulers Inc."
+                  },
+                  {
+                    "landfillDate": {"$date": "2024-10-13T00:00:00.000Z"},
+                    "weight": 510,
+                    "expense": 205,
+                    "landfillHauler": "City Disposal Services"
+                  },
+                  {
+                    "landfillDate": {"$date": "2024-10-25T00:00:00.000Z"},
+                    "weight": 530,
+                    "expense": 225,
+                    "landfillHauler": "Eastside Waste Mgmt"
+                  }
+  ]
+  

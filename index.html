@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Data Entry Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/dataentry.css">
+    <script src="./JavaScript/auth.js"></script>
+    <style>
+        /* Floating label container */
+        label {
+            position: relative;
+        }
+
+
+        /* Floating label styling */
+        label span {
+            position: absolute;
+            top: 0.19999px;
+            left: 20px;
+            font-size: 16px;
+            color: #aaa;
+            transition: 0.2s ease all;
+            pointer-events: none;
+        }
+
+        label input:focus + span,
+        label input:not(:placeholder-shown) + span {
+            top: -35px;
+            font-size: 14px;
+            color: #007bffdd;
+        }
+        /* Input row styling */
+        .landfill {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            margin-bottom: 1.5em;
+        }
+        .landfill label span{
+            top: 10px;
+        }
+
+        .landfill label input:focus + span,
+        .landfill label input:not(:placeholder-shown) + span {
+            top: -25px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div style="display: flex; align-items: center;">
+            <img src="./assets/logo.png" style="height: 70px; width: 70px; margin-right: 10px;">
+            <h1>User Dashboard</h1>
+        </div>
+        
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Dashboard</a></li>
+                <li><a href="#" class="logout-btn" onclick="logout()">Logout</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <div class="container">
+        <div class="tabs">
+            <button class="tab-button active" onclick="openTab(event, 'collection', 'collection-table-div')">Recycle Collection</button>
+            <button class="tab-button" onclick="openTab(event, 'revenue', 'revenue-table-div')">Recycle Revenue</button>
+            <button class="tab-button" onclick="openTab(event, 'landfill', 'landfill-table-div')">Landfill Expense</button>
+        </div>
+
+        <div id="collection" class="tab-content active">
+            <h2>Recycle Collection</h2>
+            <form id="collection-form">
+                <div class="inputrow">
+                    <label>
+                        <input type="date" id="collection-date">
+                        <span>Collection Date</span>
+                    </label>
+                    <label>
+                        <input type="number" id="food-waste" placeholder=" " >
+                        <span>Food Waste (lbs)</span>
+                    </label>
+                    <label>
+                        <input type="number" id="aluminum" placeholder=" " >
+                        <span>Aluminum (lbs)</span>
+                    </label>
+                </div>
+                <div class="inputrow">
+                    <label>
+                        <input type="number" id="cardboard" placeholder=" " >
+                        <span>Cardboard (lbs)</span>
+                    </label>
+                    <label>
+                        <input type="number" id="glass" placeholder=" " >
+                        <span>Glass (lbs)</span>
+                    </label>
+                    <label>
+                        <input type="number" id="metal-cans" placeholder=" " >
+                        <span>Metal Cans (lbs)</span>
+                    </label>
+                </div>
+                <div class="inputrow">
+                    <label>
+                        <input type="number" id="metal-scrap" placeholder=" " >
+                        <span>Metal Scrap (lbs)</span>
+                    </label>
+                    <label>
+                        <input type="number" id="paper-books" placeholder=" " >
+                        <span>Paper - Books (lbs)</span>
+                    </label>
+                    <label>
+                        <input type="number" id="paper-mixed" placeholder=" " >
+                        <span>Paper - Mixed (lbs)</span>
+                    </label>
+                </div>
+                <div class="inputrow">
+                    <label>
+                        <input type="number" id="paper-newspaper" placeholder=" " >
+                        <span>Paper - Newspaper (lbs)</span>
+                    </label>
+                    <label>
+                        <input type="number" id="paper-white" placeholder=" " >
+                        <span>Paper - White (lbs)</span>
+                    </label>
+                    <label>
+                        <input type="number" id="plastic-pet" placeholder=" " >
+                        <span>Plastic - #1 PET (lbs)</span>
+                    </label>
+                </div>
+                <div class="inputrow">
+                    <label>
+                        <input type="number" id="plastic-hdpe-colored" placeholder=" " >
+                        <span>Plastic - #2 HDPE Colored (lbs)</span>
+                    </label>
+                    <label>
+                        <input type="number" id="plastic-hdpe-natural" placeholder=" " >
+                        <span>Plastic - #2 HDPE Natural (lbs)</span>
+                    </label>
+                </div>
+                <button class="subbtn" type="submit">Add Collection</button>
+            </form>
+        </div>
+        <div id="collection-table-div" class="table-content active">
+            <table id="collection-table" class="entry-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Food Waste (lbs)</th>
+                        <th>Aluminum (lbs)</th>
+                        <th>Cardboard (lbs)</th>
+                        <th>Glass (lbs)</th>
+                        <th>Metal Cans (lbs)</th>
+                        <th>Metal Scrap (lbs)</th>
+                        <th>Paper Books (lbs)</th>
+                        <th>Paper Mixed (lbs)</th>
+                        <th>Paper Newspaper (lbs)</th>
+                        <th>Paper White (lbs)</th>
+                        <th>Plastic PET (lbs)</th>
+                        <th>Plastic HDPE Colored (lbs)</th>
+                        <th>Plastic HDPE Natural Revenue (US$)</th>
+                    </tr>
+                </thead>
+                <tbody id="collection-list">
+                    
+                </tbody>
+            </table>
+        </div>
+
+        <div id="revenue" class="tab-content">
+            <h2>Recycle Revenue</h2>
+            <form id="revenue-form">
+                <div class="inputrow">
+                    <label>
+                        <input type="date" id="revenue-date" >
+                        <span>Revenue Date</span>
+                    </label>
+                    <label>
+                        <input type="number" id="revenue-aluminum" placeholder=" " >
+                        <span>Aluminum Revenue (US$)</span>
+                    </label>
+                    <label>
+                        <input type="number" id="revenue-cardboard" placeholder=" " >
+                        <span>Cardboard Revenue (US$)</span>
+                    </label>
+                </div>
+                <div class="inputrow">
+                    <label>
+                        <input type="number" id="revenue-glass" placeholder=" " >
+                        <span>Glass Revenue (US$)</span>
+                    </label>
+                    <label>
+                        <input type="number" id="revenue-metal-cans" placeholder=" " >
+                        <span>Metal Cans Revenue (US$)</span>
+                    </label>
+                    <label>
+                        <input type="number" id="revenue-metal-scrap" placeholder=" " >
+                        <span>Metal Scrap Revenue (US$)</span>
+                    </label>
+                </div>
+                <div class="inputrow">
+                    <label>
+                        <input type="number" id="revenue-paper-books" placeholder=" " >
+                        <span>Paper - Books Revenue (US$)</span>
+                    </label>
+                    <label>
+                        <input type="number" id="revenue-paper-mixed" placeholder=" " >
+                        <span>Paper - Mixed Revenue (US$)</span>
+                    </label>
+                    <label>
+                        <input type="number" id="revenue-paper-newspaper" placeholder=" " >
+                        <span>Paper - Newspaper Revenue (US$)</span>
+                    </label>
+                </div>
+                <div class="inputrow">
+                    <label>
+                        <input type="number" id="revenue-paper-white" placeholder=" " >
+                        <span>Paper - White Revenue (US$)</span>
+                    </label>
+                    <label>
+                        <input type="number" id="revenue-plastic-pet" placeholder=" " >
+                        <span>Plastic - #1 PET Revenue (US$)</span>
+                    </label>
+                    <label>
+                        <input type="number" id="revenue-plastic-hdpe-colored" placeholder=" " >
+                        <span>Plastic - #2 HDPE Colored (US$)</span>
+                    </label>
+                </div>
+                <div class="inputrow">
+                    <label>
+                        <input type="number" id="revenue-plastic-hdpe-natural" placeholder=" " >
+                        <span>Plastic - #2 HDPE Natural (US$)</span>
+                    </label>
+                    <label>
+                        <input type="text" id="buyer" placeholder=" " >
+                        <span>Buyer</span>
+                    </label>
+                </div>
+                <button class="subbtn" type="submit">Add Revenue</button>
+            </form>
+        </div>
+        <div id="revenue-table-div" class="table-content">
+            <table id="revenue-table" class="entry-table">
+                <thead>
+                    <tr>
+                        <th>Sale Date</th>
+                        <th>Aluminum (US$)</th>
+                        <th>Cardboard (US$)</th>
+                        <th>Glass (US$)</th>
+                        <th>Metal Cans (US$)</th>
+                        <th>Metal Scrap (US$)</th>
+                        <th>Paper Books (US$)</th>
+                        <th>Paper Mixed (US$)</th>
+                        <th>Paper Newspaper (US$)</th>
+                        <th>Paper White (US$)</th>
+                        <th>Plastic PET (US$)</th>
+                        <th>Plastic HDPE Colored (US$)</th>
+                        <th>Plastic HDPE Natural (US$)</th>
+                        <th>Buyer</th>
+                    </tr>
+                </thead>
+                <tbody id="revenue-list">
+                   
+                </tbody>
+            </table>
+        </div>
+
+        <div id="landfill" class="tab-content">
+            <h2>Landfill Expense</h2>
+            <form id="landfill-form">
+                <div class="landfill">
+                    <label>
+                        <input type="date" id="landfill-date" >
+                        <span>Landfill Date</span>
+                    </label>
+                    <label>
+                        <input type="number" id="landfill-weight" placeholder=" " >
+                        <span>Weight (lbs)</span>
+                    </label>
+                </div>
+                <div class="landfill">
+                    <label>
+                        <input type="number" id="landfill-expense" placeholder=" " >
+                        <span>Expense (US$)</span>
+                    </label>
+                    <label>
+                        <input type="text" id="landfill-hauler" placeholder=" " >
+                        <span>Landfill/Hauler</span>
+                    </label>
+                </div>
+                <button class="subbtn" type="submit">Add Landfill Expense</button>
+            </form>
+        </div>
+        <div id="landfill-table-div" class="table-content">
+            <table id="landfill-table" class="entry-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Weight (lbs)</th>
+                        <th>Expense (US$)</th>
+                        <th>Landfill/Hauler</th>
+                    </tr>
+                </thead>
+                <tbody id="landfill-list">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer style="position: relative;">
+        <p>&copy; 2024. All rights reserved.</p>
+    </footer>
+    <script src="./JavaScript/dataEntry.js"></script>
+    <script src="./JavaScript/tabs.js"></script>
+</body>
+</html>
