@@ -67,7 +67,7 @@ This project demonstrates proficiency in full-stack development, secure authenti
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/IS-Capstone-project.git
+   git clone https://github.com/Saikiranp194/IS-Capstone-project.git
    cd IS-Capstone-project
    ```
 
